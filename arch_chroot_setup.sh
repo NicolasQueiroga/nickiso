@@ -47,7 +47,7 @@ pacman -Sy --noconfirm \
   playerctl pacman-contrib wpa_supplicant wireless_tools dialog \
   docker docker-compose nvidia-container-toolkit snapd \
   code \
-  p7zip arandr bash-completion cmake htop man-db neofetch reflector thunar unzip
+  p7zip arandr bash-completion cmake htop man-db neofetch reflector thunar unzip flameshot
 
 
 echo "==> Ativando serviços"
