@@ -38,7 +38,7 @@ echo "==> Gerando fstab"
 genfstab -U /mnt >> /mnt/etc/fstab
 
 echo "==> Copiando script de configuração para o chroot"
-curl -Lo /mnt/root/arch_chroot_setup.sh https://your-url.com/arch_chroot_setup.sh
+curl -Lo /mnt/root/arch_chroot_setup.sh https://raw.githubusercontent.com/NicolasQueiroga/nickiso/refs/heads/main/arch_chroot_setup.sh
 chmod +x /mnt/root/arch_chroot_setup.sh
 
 echo "==> Entrando no sistema para configuração final"
