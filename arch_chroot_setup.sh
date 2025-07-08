@@ -40,14 +40,15 @@ pacman -Sy --noconfirm \
   dosfstools os-prober mtools grub efibootmgr \
   lightdm lightdm-gtk-greeter \
   i3-wm i3status i3blocks i3lock dmenu lxappearance \
-  firefox kitty vim \
+  firefox kitty vim nano git \
   materia-gtk-theme papirus-icon-theme \
   ttf-font-awesome ttf-ubuntu-font-family \
   pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-equalizer pulseaudio-jack alsa-utils \
   playerctl pacman-contrib wpa_supplicant wireless_tools dialog \
-  docker docker-compose \
-  nvidia-container-toolkit \
-  snapd code
+  docker docker-compose nvidia-container-toolkit snapd \
+  code \
+  p7zip arandr bash-completion cmake htop man-db neofetch reflector thunar unzip
+
 
 echo "==> Ativando serviços"
 systemctl enable lightdm
